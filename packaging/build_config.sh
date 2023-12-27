@@ -27,7 +27,7 @@ LIBYAML_VERSION=yaml-0.1.5
 CHROMAPRINT_VERSION=1.4.3
 QT_SOURCE_URL=https://download.qt.io/archive/qt/4.8/4.8.4/qt-everywhere-opensource-src-4.8.4.tar.gz
 GAIA_VERSION=2.4.6-86-ged433ed
-TENSORFLOW_VERSION=2.5.0
+TENSORFLOW_VERSION=2.15.0
 
 
 FFMPEG_AUDIO_FLAGS="
@@ -301,8 +301,8 @@ export TF_NEED_OPENCL="${TF_NEED_OPENCL:-0}"
 # For future updates check the GPU compatibility chart:
 # https://www.tensorflow.org/install/source#gpu
 export TF_NEED_CUDA="${TF_NEED_CUDA:-1}"
-export TF_CUDA_VERSION="${TF_CUDA_VERSION:-11.2}"
-export TF_CUDNN_VERSION="${TF_CUDNN_VERSION:-8.1}"
+export TF_CUDA_VERSION="${TF_CUDA_VERSION:-12.2}"
+export TF_CUDNN_VERSION="${TF_CUDNN_VERSION:- 8.9}"
 export CUDA_TOOLKIT_PATH="${CUDA_TOOLKIT_PATH:-/usr/local/cuda}"
 export CUDNN_INSTALL_PATH="${CUDNN_INSTALL_PATH:-/usr/local/cuda}"
 
