@@ -2,6 +2,8 @@
 set -e
 . ../build_config.sh
 
+echo CUDA_TOOLKIT_PATH = $CUDA_TOOLKIT_PATH
+echo CUDNN_INSTALL_PATH = $CUDNN_INSTALL_PATH
 
 rm -rf tmp
 mkdir tmp

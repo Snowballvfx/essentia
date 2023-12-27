@@ -304,7 +304,7 @@ export TF_NEED_CUDA="${TF_NEED_CUDA:-1}"
 export TF_CUDA_VERSION="${TF_CUDA_VERSION:-12.2}"
 export TF_CUDNN_VERSION="${TF_CUDNN_VERSION:- 8.9}"
 export CUDA_TOOLKIT_PATH="${CUDA_TOOLKIT_PATH:-/usr/local/cuda}"
-export CUDNN_INSTALL_PATH="${CUDNN_INSTALL_PATH:-/usr/local/cuda}"
+export CUDNN_INSTALL_PATH="${CUDNN_INSTALL_PATH:-/usr}"
 
 # The compute capabilities define which GPUs can be used:
 # https://developer.nvidia.com/cuda-gpus#compute
